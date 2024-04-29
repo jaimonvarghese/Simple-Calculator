@@ -33,6 +33,10 @@
 	cursor: pointer;
 	margin: 10px;
 }
+.calculator form input:hover{
+	background-color: #fff;
+	color: #000;
+}
 
 form .display{
 	display: flex;
@@ -51,5 +55,13 @@ form .display input{
 
 form input.equal{
 	width: 145px;
-	
+	color: aqua;
+}
+
+.calculator form input.operator{
+	color: aqua;
+}
+
+.calculator form input.operator:hover{
+	background-color: #fff;
 }
