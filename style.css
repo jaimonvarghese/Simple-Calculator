@@ -15,7 +15,7 @@
 }
 
 .calculator{
-	background-color: #1f1f1f;
+	background-color: #3d3838;
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -32,4 +32,24 @@
 	color: #fff;
 	cursor: pointer;
 	margin: 10px;
+}
+
+form .display{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px 0;
+	background-color: #bae9c6;
+	
+}
+
+form .display input{
+	text-align: right;
+	flex: 1;
+	font-size: 45px;
+	box-shadow: none;
+}
+
+form input.equal{
+	width: 145px;
+	
 }
